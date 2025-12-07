@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Logo & Tagline */}
-          <div className="space-y-4">
+          <div className="space-y-4 reveal-left">
             <div className="flex items-center gap-2">
               <img
                 src="/Icon/coffee-cup.png"
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
 
           {/* Right - Newsletter */}
-          <div className="space-y-4">
+          <div className="space-y-4 reveal-right">
             <p className="text-cream font-medium">
               Join our newsletter to receive exclusive updates, and news!
             </p>

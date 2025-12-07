@@ -8,7 +8,7 @@ const Social = () => {
           {/* Instagram */}
           <a
             href="#"
-            className="flex items-center gap-4 group hover:opacity-80 transition-opacity"
+            className="flex items-center gap-4 group hover:opacity-80 transition-opacity reveal delay-100"
           >
             <div className="w-12 h-12 border border-cream/30 rounded-sm flex items-center justify-center">
               <Instagram className="w-6 h-6 text-cream" />
@@ -22,7 +22,7 @@ const Social = () => {
           {/* Facebook */}
           <a
             href="#"
-            className="flex items-center gap-4 group hover:opacity-80 transition-opacity"
+            className="flex items-center gap-4 group hover:opacity-80 transition-opacity reveal delay-200"
           >
             <div className="w-12 h-12 border border-cream/30 rounded-sm flex items-center justify-center bg-cream/10">
               <Facebook className="w-6 h-6 text-cream" />

@@ -8,7 +8,7 @@ const Handmade = () => {
         {/* Handmade Section */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Image */}
-          <div>
+          <div className="reveal-left">
             <img
               src="/Images/1.jpg"
               alt="Artisanal coffee beans in a kraft bag"
@@ -17,7 +17,7 @@ const Handmade = () => {
           </div>
 
           {/* Right Content */}
-          <div className="space-y-6">
+          <div className="space-y-6 reveal-right">
             <h2 className="font-heading text-4xl md:text-5xl text-cream">
               Handmade Just For You
             </h2>
@@ -34,7 +34,7 @@ const Handmade = () => {
         {/* Made In Brussels Section */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
-          <div className="space-y-6 order-2 lg:order-1">
+          <div className="space-y-6 order-2 lg:order-1 reveal-left">
             <h2 className="font-heading text-4xl md:text-5xl text-cream">
               Made In Brussels
             </h2>
@@ -51,7 +51,7 @@ const Handmade = () => {
           </div>
 
           {/* Right Image */}
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 reveal-right">
             <img
               src="/Images/2.jpg"
               alt="Cozy café interior with warm lighting"

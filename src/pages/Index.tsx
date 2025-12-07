@@ -5,8 +5,11 @@ import Social from "@/components/Social";
 import Gallery from "@/components/Gallery";
 import Locations from "@/components/Locations";
 import Footer from "@/components/Footer";
+import { useReveal } from "@/hooks/useReveal";
 
 const Index = () => {
+  useReveal();
+
   return (
     <div className="min-h-screen">
       <Header />

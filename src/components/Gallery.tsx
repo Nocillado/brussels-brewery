@@ -11,7 +11,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section className="bg-cream overflow-hidden">
+    <section className="bg-cream overflow-hidden reveal-scale">
       <div className="flex animate-scroll">
         {/* Duplicate images for seamless loop */}
         {[...images, ...images].map((image, index) => (

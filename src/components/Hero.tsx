@@ -7,15 +7,15 @@ const Hero = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-[3fr_2fr] gap-12 items-center min-h-[calc(100vh-10rem)]">
           {/* Left Content */}
-          <div className="space-y-8 animate-fade-in">
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground">
+          <div className="space-y-8">
+            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground hero-title">
               Brewed To Perfection,<br />
               Served With Love
             </h1>
-            <p className="text-muted-foreground text-lg max-w-md leading-relaxed">
+            <p className="text-muted-foreground text-lg max-w-md leading-relaxed hero-description">
               Indulge in handcrafted coffee, freshly baked pastries, and a welcoming atmosphere designed to inspire and unwind.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 hero-buttons">
               <Button variant="hero" size="lg">
                 Order Online
               </Button>
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
 
           {/* Right Image */}
-          <div className="relative flex justify-center lg:justify-end animate-scale-in" style={{ animationDelay: "0.2s" }}>
+          <div className="relative flex justify-center lg:justify-end hero-image">
             <div className="relative">
               <img
                 src="/Hero Image/1.jpg"
