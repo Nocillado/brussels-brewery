@@ -14,8 +14,8 @@ const Social = () => {
               <Instagram className="w-6 h-6 text-cream" />
             </div>
             <div>
-              <p className="text-cream font-medium">#Brusselscoffee</p>
-              <p className="text-cream/60 text-sm">@Brusselsbrewery</p>
+              <p className="text-cream font-medium text-lg">#Brusselscoffee</p>
+              <p className="text-cream/60">@Brusselsbrewery</p>
             </div>
           </a>
 
@@ -28,8 +28,8 @@ const Social = () => {
               <Facebook className="w-6 h-6 text-cream" />
             </div>
             <div>
-              <p className="text-cream font-medium">Follow Us</p>
-              <p className="text-cream/60 text-sm">Brusselsbrewery</p>
+              <p className="text-cream font-medium text-lg">Follow Us</p>
+              <p className="text-cream/60">Brusselsbrewery</p>
             </div>
           </a>
         </div>

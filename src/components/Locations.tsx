@@ -18,20 +18,20 @@ const locations = [
 
 const Locations = () => {
   return (
-    <section id="locations" className="py-24 bg-cream">
+    <section id="locations" className="py-24" style={{ backgroundColor: "#252224" }}>
       <div className="container mx-auto px-6">
-        <h2 className="font-heading text-4xl md:text-5xl text-center text-foreground mb-16">
+        <h2 className="font-heading text-4xl md:text-5xl text-center text-cream mb-16">
           Locations
         </h2>
 
         <div className="grid md:grid-cols-3 gap-12 max-w-4xl mx-auto">
           {locations.map((location, index) => (
             <div key={index} className="text-center">
-              <h3 className="font-heading text-xl text-foreground mb-3">
+              <h3 className="font-heading text-xl text-cream mb-3">
                 {location.city}
               </h3>
-              <p className="text-muted-foreground text-sm">{location.address}</p>
-              <p className="text-muted-foreground text-sm">{location.region}</p>
+              <p className="text-cream/70 text-sm">{location.address}</p>
+              <p className="text-cream/70 text-sm">{location.region}</p>
             </div>
           ))}
         </div>

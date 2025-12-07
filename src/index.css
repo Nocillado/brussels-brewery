@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito+Sans:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -18,7 +18,7 @@
     --primary: 35 35% 45%;
     --primary-foreground: 35 33% 94%;
 
-    --secondary: 25 25% 14%;
+    --secondary: 14 18% 27%;
     --secondary-foreground: 35 33% 94%;
 
     --muted: 35 20% 88%;
@@ -37,16 +37,16 @@
     --radius: 0.25rem;
 
     /* Custom colors */
-    --cream: 35 33% 94%;
-    --cream-dark: 35 25% 88%;
+    --cream: 33 62% 84%;
+    --cream-dark: 33 50% 78%;
     --chocolate: 25 25% 12%;
     --chocolate-light: 25 20% 18%;
     --coffee: 35 35% 45%;
     --coffee-light: 35 30% 55%;
     --warm-gray: 30 10% 60%;
 
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Libre Baskerville', serif;
+    --font-body: 'Nunito Sans', sans-serif;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -120,5 +120,18 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
   }
 }

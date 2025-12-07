@@ -19,24 +19,18 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="flex flex-col items-center">
-              <svg
-                className="w-6 h-6 text-foreground"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              >
-                <path d="M4 8h16M4 16h16M8 4v16M16 4v16" />
-              </svg>
-            </div>
+            <img
+              src="/Icon/coffee-cup.png"
+              alt="Brussels Brewery"
+              className="w-8 h-8 object-contain"
+            />
             <span className="font-heading text-xl tracking-wide text-foreground">
               BRUSSELS BREWERY
             </span>
           </a>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          {/* Desktop Navigation + CTA */}
+          <div className="hidden md:flex items-center gap-10">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -46,10 +40,6 @@ const Header = () => {
                 {link.name}
               </a>
             ))}
-          </div>
-
-          {/* CTA Button */}
-          <div className="hidden md:block">
             <Button variant="hero" size="sm">
               Order Online
             </Button>

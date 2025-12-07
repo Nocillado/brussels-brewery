@@ -4,38 +4,35 @@ import { Instagram, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-cream border-t border-border">
+    <footer style={{ backgroundColor: "#252224" }}>
       <div className="container mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left - Logo & Tagline */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <svg
-                className="w-6 h-6 text-foreground"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              >
-                <path d="M4 8h16M4 16h16M8 4v16M16 4v16" />
-              </svg>
-              <span className="font-heading text-xl tracking-wide text-foreground">
+              <img
+                src="/Icon/coffee-cup.png"
+                alt="Brussels Brewery"
+                className="w-8 h-8 object-contain"
+                style={{ filter: "brightness(0) saturate(100%) invert(78%) sepia(18%) saturate(487%) hue-rotate(354deg) brightness(92%) contrast(89%)" }}
+              />
+              <span className="font-heading text-xl tracking-wide text-cream">
                 BRUSSELS BREWERY
               </span>
             </div>
-            <p className="text-muted-foreground text-sm">
+            <p className="text-cream/70 text-sm">
               Brewed To Perfection, Served With Love
             </p>
             <div className="flex gap-3 pt-4">
               <a
                 href="#"
-                className="w-8 h-8 flex items-center justify-center text-foreground/70 hover:text-foreground transition-colors"
+                className="w-8 h-8 flex items-center justify-center text-cream/70 hover:text-cream transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
                 href="#"
-                className="w-8 h-8 flex items-center justify-center text-foreground/70 hover:text-foreground transition-colors"
+                className="w-8 h-8 flex items-center justify-center text-cream/70 hover:text-cream transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
@@ -44,16 +41,16 @@ const Footer = () => {
 
           {/* Right - Newsletter */}
           <div className="space-y-4">
-            <p className="text-foreground font-medium">
+            <p className="text-cream font-medium">
               Join our newsletter to receive exclusive updates, and news!
             </p>
             <div className="flex gap-3">
               <Input
                 type="email"
                 placeholder="Enter Your Email"
-                className="flex-1 bg-transparent border-foreground/20 rounded-sm focus:border-foreground/40"
+                className="flex-1 bg-transparent border-cream/20 text-cream placeholder:text-cream/50 rounded-sm focus:border-cream/40"
               />
-              <Button variant="dark" size="default">
+              <Button variant="dark-outline" size="default">
                 Subscribe
               </Button>
             </div>
@@ -62,28 +59,28 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-border">
+      <div className="border-t border-cream/20">
         <div className="container mx-auto px-6 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-muted-foreground text-sm">
+            <p className="text-cream/60 text-sm">
               ©2024 Brussels Brewery. All Rights Reserved.
             </p>
             <div className="flex gap-6">
               <a
                 href="#"
-                className="text-muted-foreground text-sm hover:text-foreground transition-colors"
+                className="text-cream/60 text-sm hover:text-cream transition-colors"
               >
                 Privacy
               </a>
               <a
                 href="#"
-                className="text-muted-foreground text-sm hover:text-foreground transition-colors"
+                className="text-cream/60 text-sm hover:text-cream transition-colors"
               >
                 Terms
               </a>
               <a
                 href="#"
-                className="text-muted-foreground text-sm hover:text-foreground transition-colors"
+                className="text-cream/60 text-sm hover:text-cream transition-colors"
               >
                 Cookies
               </a>

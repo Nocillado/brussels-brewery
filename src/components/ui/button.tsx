@@ -9,16 +9,16 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 rounded-sm",
-        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-sm",
-        outline: "border border-foreground/30 bg-transparent hover:bg-foreground/5 rounded-sm",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-sm",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 rounded-xl",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 rounded-xl",
+        outline: "border border-foreground/30 bg-transparent hover:bg-foreground/5 rounded-xl",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-xl",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-sm",
-        "hero-outline": "border border-foreground/40 bg-transparent text-foreground hover:bg-foreground/5 rounded-sm",
-        dark: "bg-chocolate text-cream hover:bg-chocolate-light rounded-sm",
-        "dark-outline": "border border-cream/40 bg-transparent text-cream hover:bg-cream/10 rounded-sm",
+        hero: "bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-xl",
+        "hero-outline": "border border-foreground/40 bg-transparent text-foreground hover:bg-foreground/5 rounded-xl",
+        dark: "bg-chocolate text-cream hover:bg-chocolate-light rounded-xl",
+        "dark-outline": "border border-cream/40 bg-transparent text-cream hover:bg-cream/10 rounded-xl",
       },
       size: {
         default: "h-10 px-6 py-2",
