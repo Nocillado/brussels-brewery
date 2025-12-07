@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# Brussels Brewery
 
-## Project info
+A modern, beautifully designed website for Brussels Brewery - an artisan coffee shop and café.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About
 
-## How can I edit this code?
+Brussels Brewery is a cozy café where the charm of Brussels meets the aroma of freshly brewed coffee. This website showcases our handcrafted coffee, freshly baked pastries, and welcoming atmosphere.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Responsive design optimized for all devices
+- Smooth scroll-based reveal animations
+- Auto-scrolling image gallery
+- Modern UI with warm, inviting color palette
+- Newsletter subscription form
+- Multiple location listings
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Utility-first styling
+- **shadcn/ui** - UI component library
+- **Lucide React** - Icon library
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v18 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repository
+git clone https://github.com/your-username/brussels-brewery.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd brussels-brewery
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Preview Production Build
 
-## What technologies are used for this project?
+```bash
+npm run preview
+```
 
-This project is built with:
+## Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+brussels-brewery/
+├── public/
+│   ├── Hero Image/     # Hero section images
+│   ├── Icon/           # Logo and icons
+│   └── Images/         # Gallery and content images
+├── src/
+│   ├── components/     # React components
+│   │   ├── ui/         # shadcn/ui components
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Handmade.tsx
+│   │   ├── Social.tsx
+│   │   ├── Gallery.tsx
+│   │   ├── Locations.tsx
+│   │   └── Footer.tsx
+│   ├── hooks/          # Custom React hooks
+│   ├── pages/          # Page components
+│   ├── lib/            # Utility functions
+│   └── index.css       # Global styles and animations
+├── index.html
+├── tailwind.config.ts
+└── package.json
+```
 
-## How can I deploy this project?
+## Color Palette
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Cream | `#eed7bd` | Hero background |
+| Dark Brown | `#252224` | Section backgrounds |
+| Primary | `#533f39` | Buttons |
+| Accent | `#ceb69b` | Highlights |
 
-## Can I connect a custom domain to my Lovable project?
+## Fonts
 
-Yes, you can!
+- **Libre Baskerville** - Headings (serif)
+- **Nunito Sans** - Body text (sans-serif)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT License - feel free to use this project for your own café or business website.
+
+---
+
+Brewed To Perfection, Served With Love
